@@ -226,7 +226,7 @@ function start(chatId) {
 }
 
 function work(chatId){
-  bot.sendMessage(chatId, 'Сегодня '+today, {
+  bot.sendMessage(chatId, 'Сегодня у нас'+today, {
     reply_markup: JSON.stringify({
       keyboard: [
         [{
