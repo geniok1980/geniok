@@ -2,7 +2,7 @@
 var TelegramBot = require('node-telegram-bot-api');
 var request = require('request')
 var cheerio = require('cheerio')
-var token = '155871338:AAGoyU3pipTu_LjtNo4QhNsoVAnIByASGow';
+var token = '155871338:AAHW9dT3kSQdm6wVlViuwqfPktghEMXwyHk';
 var bot = new TelegramBot(token, { polling: true });
 var port = process.env.PORT || 1337;
 //var Entities = require('html-entities').AllHtmlEntities;
